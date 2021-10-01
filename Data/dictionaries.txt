@@ -1,3 +1,0 @@
-a    	mot
-b       asd
-b       sdf

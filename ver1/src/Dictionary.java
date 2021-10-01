@@ -30,6 +30,6 @@ public class Dictionary {
      * setter cho words.
      */
     public void setWords(Word word, int i) {
-        this.words[i] = word;
+        words[i] = word;
     }
 }
