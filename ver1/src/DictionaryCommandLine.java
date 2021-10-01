@@ -3,6 +3,12 @@ public class DictionaryCommandLine {
     DictionaryManagement dicM = new DictionaryManagement();
 
     /**
+     * Contructor.
+     */
+    public DictionaryCommandLine() {
+    }
+
+    /**
      * getter, setter DicM
      */
     public DictionaryManagement getDicM() {
@@ -25,13 +31,24 @@ public class DictionaryCommandLine {
                     dic.getWord(i).getWord_target(),
                     dic.getWord(i).getWord_explain());
         }
+
     }
 
     /**
-     * Hàm có chức năng gọi hàm insertFromCommandline() và showAllWords()
+     * Hàm có chức năng gọi hàm insertFromCommandline() và showAllWords().
      */
     public void dictionaryBasic() {
         dicM.insertFromCommandline();
         showAllWords(dicM.getDic());
     }
+
+    /**
+     * Hàm có chức năng gọi hàm insertFromFile, showAllWords() và dictionaryLookup().
+     */
+    public void dictionaryAdvanced() {
+        dicM.insertFromFile();
+        showAllWords(getDicM().dic);
+        dicM.dictionaryLookup();
+    }
+
 }
