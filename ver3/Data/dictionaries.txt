@@ -1,0 +1,19 @@
+transport    vận chuyển
+translate    phiên dịch
+transform    biến đổi
+transit    quá cảnh
+dog    chó
+cat    mèo
+cow    con bò
+chicken    con gà
+bear    gấu
+lion    sư tử
+tiger    hổ
+monkey    khỉ
+horse    ngựa
+snack    rắn
+pig    lợn
+rat    con chuột
+reptile    bò sát
+mammal    động vật có vú
+person    con người
